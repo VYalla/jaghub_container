@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:mad2_browsepage/browse_page.dart';
+import 'package:jaghub_homepage/homepage.dart';
 
 class TabView extends StatefulWidget {
   const TabView({Key? key}) : super(key: key);
@@ -13,9 +14,9 @@ class _TabViewState extends State<TabView> {
   int currentIndex = 0;
 
   final screens = [
-    BrowsePage(),
-    Text("H"),
-    Text("H"),
+    const BrowsePage(),
+    const HomePageCopyWidget(),
+    const Text("H"),
   ];
 
   @override
@@ -42,5 +43,14 @@ class _TabViewState extends State<TabView> {
         ],
       ),
     );
+  }
+}
+
+class SignOut extends StatelessWidget {
+  const SignOut({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
