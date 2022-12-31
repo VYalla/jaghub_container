@@ -39,7 +39,7 @@ dependencies:
   jaghub_homepage:
     git:
       url: https://github.com/VYalla/mad2-home.git
-      ref: 62ea45221e7f4f5b6784148e708b4fc7ce7066b8
+      ref: ff3fda087e91c2a515f8e378499d1dfca6bfda49
 
 dev_dependencies:
   flutter_test:
