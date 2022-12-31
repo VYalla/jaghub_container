@@ -372,8 +372,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "1b62a1a0194c333733076680e40136e0944ac092"
-      resolved-ref: "1b62a1a0194c333733076680e40136e0944ac092"
+      ref: "994a41075f9ae843f2455adf3d65ef7add36fdff"
+      resolved-ref: "994a41075f9ae843f2455adf3d65ef7add36fdff"
       url: "https://github.com/VYalla/mad2-home.git"
     source: git
     version: "1.0.0+1"
